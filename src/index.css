@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f7f9;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h3 {
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, #222 0%, transparent);
+  border-image-slice: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+li {
+  padding-left: 1em;
+}
+
+li:before {
+  content: "\00bb"; /* FontAwesome Unicode */
+  display: inline-block;
+  margin-left: -1em; /* same as padding-left set on li */
+  width: 1em; /* same as padding-left set on li */
+}
+
+pre {
+  padding: 8px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.1);
+  font-family: 'Hack', monospace;
+  font-size: 0.8rem;
+}
+
+input, button, textarea {
+  width: 100%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,8 @@
+.MiddleMan {
+  flex: 1;
+  margin: 8px;
+  padding: 8px;
+  border: 4px solid #821;
+  border-radius: 16px;
+  background-color: #f5eddf;
+}

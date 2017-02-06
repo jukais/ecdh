@@ -1,0 +1,12 @@
+.User {
+  flex: 1;
+  margin: 8px;
+  padding: 8px;
+  border: 4px solid #67a;
+  background-color: #d7dbef;
+}
+
+li pre {
+  margin: 4px;
+  display: inline-flex;
+}
